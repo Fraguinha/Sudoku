@@ -1,0 +1,7 @@
+(executable
+ (name main)
+ (libraries sudoku_solver js_of_ocaml js_of_ocaml-ppx)
+ (preprocess
+  (pps js_of_ocaml-ppx))
+ (modes js)
+ (promote (until-clean)))
